@@ -9,3 +9,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    width: 200px;
+    height: 600px;
+}
+
+.luz{
+    width: 150px;
+    height: 150px;      
+}
+
+.apagada{
+    box-shadow: none;
+}
+
+.rojaEncendida{
+    box-shadow: 
+    0 0 20px #dc3545,
+    0 0 60px #dc3545,
+    0 0 120px #dc3545;
+}
+
+.amarillaEncendida{
+    box-shadow:  
+    0 0 20px #ffc107,
+    0 0 60px #ffc107,
+    0 0 120px #ffc107;
+}
+
+.verdeEncendida{
+    box-shadow:  
+    0 0 20px #198754,
+    0 0 60px #198754,
+    0 0 120px #198754;
+}
