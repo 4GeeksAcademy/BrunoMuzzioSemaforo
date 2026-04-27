@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Semaforo = ({ luzEncendida, setLuzEncendida }) => {
 
     function encenderLuz(event) {	
+        
 		if(luzEncendida === event.target.id){
 			setLuzEncendida(null)
 		} else{
